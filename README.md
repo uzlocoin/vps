@@ -127,7 +127,7 @@ Using this command, you can skip "Configure masternode configuration files" belo
 
 This prepares the system and installs the Uzlocoin Masternode daemon. This includes downloading the latest Uzlocoin masternode release, creating a swap file, configuring the firewall, and compiling the Uzlocoin Masternode from source code. This process takes about 10-15 minutes.
 
-<img src="docs/images/masternode_vps/install-the-desired-masternode-and-amount.png" alt="VPS configuration" class="inline"/>
+<img src="docs/images/masternode_vps/install-te-desi-masternode-and-amount.png" alt="VPS configuration" class="inline"/>
 
 While that is underway, go back to your local desktop and open uzlocoin-qt.
 
