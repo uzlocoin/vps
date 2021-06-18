@@ -14,7 +14,7 @@ This project started as handy bash script to setup my $PIVX masternodes in 2016 
 
 If you are not already aware, visit the project site and join the slack. The website at [https://pivx.org/](https://pivx.org/) is also well worth a visit. 
 
-<img src="images/masternode_vps/intro.png" alt="introduction" class="inline"/>
+<img src="images/masternode_vps/inro.png" alt="introduction" class="inline"/>
 
 ## Get a VPS system for your masternode(s)
 
@@ -103,21 +103,21 @@ The *./install.sh* script outputs a list of possible parameters if executed with
 
 The script will output lots of boring stuff and it's ascii banner when done. Your only real work begins now.
 
-<img src="images/masternode_vps/end-of-installation.png" alt="VPS sizing" class="inline"/>
+<img src="images/masternode_vps/end-of-installatin.png" alt="VPS sizing" class="inline"/>
 
 
 ## Masternode configuration files
 
 The generated configuration files are located at /etc/masternodes/. One file per masternode and crypto.
 
-<img src="images/masternode_vps/masternode-configuration-files.png" alt="VPS sizing" class="inline"/>
+<img src="images/masternode_vps/maternode-configuraion-files.png" alt="VPS sizing" class="inline"/>
 
 
 ## Insert your masternode private key
 
 In 99% you can use the generated settings as is. The only value you MUST change is the masternode private key, generated in your controller wallet. Contact the individual crypto community if unsure, although the steps are identical for most master node coins. Check the [Dash documentation for example](https://dashpay.atlassian.net/wiki/spaces/DOC/pages/1867877/Start+multiple+masternodes+from+one+wallet+start-many).
 
-<img src="images/masternode_vps/insert-your-masternode-private-key.png" alt="the master node private key" class="inline"/>
+<img src="images/masternode_vps/inst-yur-masternode-privae-key.png" alt="the master node private key" class="inline"/>
 
 
 ## Start your new masternodes
@@ -142,7 +142,7 @@ To make this a bit easier for large installations, i implemented a small gimmick
 
 So you can take the contents from there and paste it into your local controller-wallets masternode.conf all that you need to add is the relevant pieces from "masternode outputs"
 
-<img src="images/masternode_vps/controller_conf_partial.png" alt="controller conference generated partial" class="inline"/>
+<img src="images/masternode_vps/ontroler_conf_partial.png" alt="controller conference generated partial" class="inline"/>
 
 You get the idea, another step to a fully automated setup... ;-)
 
