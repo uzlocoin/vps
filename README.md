@@ -165,19 +165,19 @@ Once the wallet is open on your local computer, select the 'Receive' tab and gen
 
 Click the Request payment button, and copy the address.
 
-![alt text](https://i.imgur.com/L3Ka6cg.png "Logo Title Text 1")
+![alt text](https://i.uzlocoin.com/L3Ka6cg.png "Logo Title Text 1")
 
 Now go to the ‘Send' tab, paste the copied address, and send *exactly* 10,000 UZL to it in a single transaction. This is the collateral transaction that will be locked and paired with your new masternode. If you are setting up more than one masternode at a time, repeat this process for each one.
 
 *You must wait for at least one confirmation (approx. 1 minute) on the blockchain before moving on to the next step!*
 
-![alt text](https://i.imgur.com/g00xJTC.png "Logo Title Text 1")
+![alt text](https://i.uzlocoin.com/g00xJTC.png "Logo Title Text 1")
 
 ### Step 2 - Local Masternode Setup
 
 After waiting for at least one confirmation on the collateral transaction we just created, select the 'Masternodes' tab and click on the 'Add Masternode' button.
 
-![alt text](https://i.imgur.com/QHECool.png "Logo Title Text 1")
+![alt text](https://i.uzlocoin.com/QHECool.png "Logo Title Text 1")
 
 Under ‘Alias Name’ enter the name of your Masternode (in my case it is ‘Uzlocoin-MN-1’). Then click both ‘Autofill Privkey’ and ‘Autofill Outputs’; this will automatically fill the ‘Priv Key’, ‘Output’ and ‘Output ID’ fields.
 
@@ -187,7 +187,7 @@ The ‘VPS IP’ field will be blank, we will get to that in a moment.
 
 When the script finishes, it will look similar to this:
 
-![alt text](https://i.imgur.com/FipCs5R.png "Logo Title Text 1")
+![alt text](https://i.uzlocoin.com/FipCs5R.png "Logo Title Text 1")
 
 You only have a few steps remaining to complete your Masternode configuration.
 
@@ -203,11 +203,11 @@ To open uzlocoin_n1.conf for editing, enter these commands:
 
 You will see something similar to this:
 
-![alt text](https://i.imgur.com/qxYIvHJ.png "Logo Title Text 1")
+![alt text](https://i.uzlocoin.com/qxYIvHJ.png "Logo Title Text 1")
 
 Copy the IP from ```masternodeaddr=``` (highlighted in red in the image above) and paste it into the ‘VPS IP’ field of the local wallet Masternode setup. Every field should now be full. Copy your ‘Priv Key’ (we will need this soon) and click ‘OK’.
 
-![alt text](https://i.imgur.com/7EQ19Fh.png "Logo Title Text 1")
+![alt text](https://i.uzlocoin.com/7EQ19Fh.png "Logo Title Text 1")
 
 The next step will be to add your masternode private key.
 
@@ -217,7 +217,7 @@ Back in Putty, you only need to change the masternode private key. (We recommend
 
 Replace HERE_GOES_YOUR_MASTERNODE_KEY_FOR_MASTERNODE_uzlocoin_1 with the copy of your ‘Priv Key’ from the local wallet.
 
-![alt text](https://i.imgur.com/D6Z8sIe.png "Logo Title Text 1")
+![alt text](https://i.uzlocoin.com/D6Z8sIe.png "Logo Title Text 1")
 
 Once you have your masternode private key entered, press ‘Ctrl+X’ to exit, press ‘Y’ to save when prompted, and press ‘Enter’ to exit.
 
@@ -276,7 +276,7 @@ The output will look like this:
 
 We're looking at the blocks, and need that to be the latest block in the blockchain. You can check your local wallet to see the latest block by hovering over the green check mark.
 
-![alt text](https://i.imgur.com/xPv4XmT.png "Logo Title Text 1")
+![alt text](https://i.uzlocoin.com/xPv4XmT.png "Logo Title Text 1")
 
 Once your masternode has synced up to the latest block, go to next step. The syncing process may take 15-30 minutes, or more, as the Uzlocoin Blockchain grows. You can keep checking progress with the command above, by pressing the ‘Up’ arrow and the ‘Enter’ key to repeat it (or by pasting the command in again).
 
@@ -284,13 +284,13 @@ Once your masternode has synced up to the latest block, go to next step. The syn
 
 When your Masternode is fully synced on the VPS, go back to the ‘Masternode’ tab of the local wallet and click ‘Start Alias’. 
 
-![alt text](https://i.imgur.com/JPPxFcm.png "Logo Title Text 1")
+![alt text](https://i.uzlocoin.com/JPPxFcm.png "Logo Title Text 1")
 
 Click ‘Yes’ to start your Masternode.
 
 Once you have done this, you should get a confirmation that the Masternode has started successfully!
 
-![alt text](https://i.imgur.com/C8UkC1i.png "Logo Title Text 1")
+![alt text](https://i.uzlocoin.com/C8UkC1i.png "Logo Title Text 1")
 
 The ‘Status’ should now say ‘Enabled’, and within an hour the timer in the ‘Active’ column should start increasing.
 
